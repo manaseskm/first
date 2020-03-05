@@ -1,0 +1,85 @@
+<!DOCKTYPE html>
+<html>
+<head>
+<style>
+table, td, th{
+   border: 15px solid yellow;
+   text align: left;
+}
+table{
+   border-collapse: collapse;
+   width: 100%;
+}
+th, td{
+   padding:50px;
+}
+body {
+  background-image: url("bgdesert.jpg");
+}
+</head>
+</style>
+
+<h1>Holiday weekly contribution</h1>
+<p1>As we came to the end of this semester we agreed to make savings contribution as follows:</p1>
+<table>
+<tr>
+<th>NAME</th>
+<th>OCCUPATION</th>
+<th>SALARY</th>
+<th>ID no.</th>
+<th>Country</th>
+<th>passport photo</th>
+</tr>
+<tr>
+<td>Abedy</td>
+<td>Web Developer</td>
+<td>$5700</td>
+<td>123765</td>
+<td>united states</td>
+</tr>
+<tr>
+<td>Maggie</td>
+<td>Web Developer</td>
+<td>$6000</td>
+<td>6457458</td>
+<td>vatican city</td>
+</tr>
+<tr>
+<td>Rehema</td>
+<td>Animation</td>
+<td>$6500</td>
+<td>894375</td>
+<td>philipinnes</td>
+</tr>
+<tr>
+<td>manases</td>
+<td>Machine learning</td>
+<td>$5000</td>
+<td>5475364</td>
+<td>cuba</td>
+</tr>
+<tr>
+<td>Elisha</td>
+<td>cyber security</td>
+<td>$30000</td>
+<td>645363</td>
+<td>jamaica</td>
+</tr>
+<tr>
+<td>Hemston</td>
+<td>Android</td>
+<td>$4000</td>
+<td>3464846</td>
+<td>nigeria</td>
+</tr>
+<tr>
+<td>Brayo</td>
+<td>Dart and FLutter</td>
+<td>$7000</td>
+<td>6363443</td>
+<td>canada</td>
+</tr>
+</table>
+</body>
+</body>
+</html>
