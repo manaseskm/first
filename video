@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+video {
+  width: 50%;
+  height: auto;
+  float:left;
+  border: 3px, right;
+}
+video{
+  width: 50%;
+  height: auto;
+  float: right;
+  border-spacing: 2px;
+  }
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+  
+@media only screen and (min-width: 768px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: purple;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Music</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+  <a href="https://www.youtube.com/">
+    <ul>
+      <li>YOUTUBE</li>
+	  </a>
+	  <a href=" https://www.tubidy.com/">
+      <li>TUBIDY</li>
+	  </a>
+	  <a href="https://www.mdundo.com/">
+      <li>MDUNDO</li>
+	  </a>
+	  <a href="https://www.mixcloud.com/">
+      <li>MIXCLOUD</li>
+	  </a>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1>Music</h1>
+    <p>Music plays a very important role in entertainment field.It has many advantages one of them being you can listen to it while doing
+	something else since some others like swimming must be done at their own time.</p>
+    <video width="400" controls>
+      <source src="videoplayback (2).mp4" type="video/mp4">
+      <source src="videoplayback (2).mp4" type="video/ogg">
+	  	</video>
+	<video width="400" controls>
+	  <source src="videoplayback (1).mp4" type="video/mp4">
+	  <source src="videoplayback (1).mp4" type="video/ogg">
+    </video>
+	
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>What?</h2>
+       <p>what the music is all about and the main message in it.</p>
+      <h2>Where?</h2>
+      <p>Where the music video was produced.</p>
+      <h2>How?</h2>
+      <p>How the music was recorded in both audio and video cases.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Make sure you listen to a new song daily and get the message.</p>
+</div>
+
+</body>
+</html>
