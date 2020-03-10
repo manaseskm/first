@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: red;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: pink;
+}
+
+div {
+  border-radius: 5px;
+  background-color: grey;
+  padding: 20px;
+  transition: width 0.4s ease-in-out;
+}
+</style>
+<body>
+
+<h3>Christian Union Bible Study Form</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="residence">residence</label>
+    <select id="residence" name="residence">
+      <option value="Misufini">Misufini</option>
+      <option value="Kibaoni">Kibaoni</option>
+      <option value="Kaya">Kaya</option>
+	  <option value="Marembo">Marembo</option>
+	  <option value="Makao">Makao</option>
+	  <option value="Zimbabwe">Zimbabwe</option>
+	  <option value="Hostel">Hostel</option>
+    </select>
+	<label for="Year of study">Year of study</label>
+	<select id="Year of study" name="Year of study">
+	  <option value="First">First</option>
+	  <option value="Second">Second</option>
+	  <option value="Third">Third</option>
+	  <option value="Fourth">Fourth</option>
+	   
+	
+	<label for="Contacts">Contacts</label>
+	<input type="text" id="Contacts" name="Contacts" placeholder="Your contacts number">
+	
+  <a href="https.//www.pucu.ac.ke/">
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
