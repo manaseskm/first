@@ -1,0 +1,41 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>forms</title>
+<body>
+<form>
+
+<p>Username:<input type="text" placeholder="Your Username"></p>
+<p>Email:<input type="text" placeholder="Your Email"></p>
+<p>Password<input type="text" placeholder="Your Password">
+
+<p>
+<select>
+Field of study:
+<option>Web Development</option>
+<option>Machine Learning</option>
+<option>Cyber Security</option>
+<option>Android Development</option>
+<option>Artificial Intelligence</option>
+
+
+</select>
+</p>
+ <p>Under 18<input type="checkbox" value="18"></p>
+ <p>Over 18<input type="checkbox" value="18"></p>
+ <p>I agree and continue<input type="radio"></p>
+ <p>Click here to submit<input type="submit" value="submit"></p>
+
+
+
+</form>
+</body>
+
+
+
+
+</head>
+
+
+
+</html>
