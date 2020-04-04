@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropdown1 {
+position: relative;
+display: inline-block;
+}
+.dropdown1-content {
+display: none;
+position: absolute;
+background-color:lightgrey;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px
+rgba(0 , 0 , 0 ,0.2);
+padding: 12px 16px;
+}
+.dropdown1 :hover .dropdown1-content {
+display: block;
+}
+
+.dropbtn {
+background-color:steelblue;
+color: white;
+padding:16px;
+font-size: 16px;
+border: none;
+cursor:pointer;
+
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color:lightblue;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px
+rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+color:black;
+padding:8px 16px;
+text-decoration:none;
+display: block;
+
+}
+
+.dropdown-content a: hover
+{background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+display: block;
+
+}
+.dropdown:hover .dropbtn {
+background-color:turquoise;
+}
+
+</style>
+</head>
+<body>
+<h>Dropdown menu</h>
+<p>move the mouse over the button to open the dropdown menu</p>
+<div class="dropdown">
+<button class="dropbtn">dropdown</button>
+<div class="dropdown-content">
+<a href="#">link 1</a>
+<a href="#">link 2</a>
+<a href="#">link 3</a>
+</div>
+</div>
+<h2>Hoverable Dropdown</h2>
+<p>move the mouse over the text below to open the dropdown</p>
+<div class="dropdown1">
+<span>Mouse over me</span>
+<div class="dropdown-content">
+<p>Hoverable Dropdown</p>
+</div>
+</div>
+
+</body>
+</html>
